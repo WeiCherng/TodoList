@@ -1,0 +1,33 @@
+.input-field {
+  display: flex;
+  flex-direction: column;
+}
+label {
+    color: #788bff;
+    font-weight: 700;
+}
+input {
+  margin: 10px 0;
+  height: 24px;
+  border-radius: 6px;
+  border: none;
+}
+.submit {
+    background-color: #e2fdff;
+    color: #5465ff;
+    border: none;;
+    padding: 8px 16px;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 700;
+    float: right;
+}
+.submit:hover {
+    background-color: #5465ff;
+    color: #e2fdff;
+}
+.submit:active {
+    background-color: #788bff;
+    color: #e2fdff;
+}

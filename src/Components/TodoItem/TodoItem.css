@@ -1,0 +1,33 @@
+.item {
+    background-color: #9bb1ff;
+    padding: 24px;
+    margin: 12px 0;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    color: #061a40;
+    width: auto;
+}
+.todo {
+    display: flex;
+    align-items: center;
+}
+.checked {
+    background-color: #788bff;
+    color: #e2fdff;
+    border: none;
+    height: 30px;
+    padding: 0 12px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.checked:hover {
+    background-color: #e2fdff;
+    color: #788bff;
+}
+.checked:active {
+    background-color: #788bff;
+    color: #e2fdff;
+}
